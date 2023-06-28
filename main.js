@@ -7,40 +7,41 @@ let Sbutton = document.querySelector('#scissors');
 
 //////////////give a button the ablity to do something when clicked///////////////
 
-/* When active the rock button will start responding to click
-it will do whatever is in function here console logging clicked*/
+// /* When active the rock button will start responding to click
+// it will do whatever is in function here console logging clicked*/
 
-//Rbutton.addEventListener('click', function clickFunction(event){
-//console.log('clicked');
-//});
+// Rbutton.addEventListener('click', function clickFunction(event){
+// console.log('clicked');
+// });
 
 //////////////create a player selection variable controled by buttons///////////////
 
-// games need variables that keep track of the state of the game 
+/* games need variables that keep track of the state of the game */
 
-/* When active clicking each button will change player place and 
+/* When active clicking each button will change player choice and 
 diplay it to the console*/
 
-/*let playerOneChoice = null;
+// let playerOneChoice = null;
 
-Rbutton.addEventListener('click', function clickFunction(event){
-playerOneChoice = 'rock';
-console.log(playerOneChoice);
-});
+// Rbutton.addEventListener('click', function clickFunction(event){
+// playerOneChoice = 'rock';
+// console.log(playerOneChoice);
+// });
 
-Pbutton.addEventListener('click', function clickFunction(event){
-    playerOneChoice = 'paper';
-    console.log(playerOneChoice);
-});
+// Pbutton.addEventListener('click', function clickFunction(event){
+//     playerOneChoice = 'paper';
+//     console.log(playerOneChoice);
+// });
 
-Sbutton.addEventListener('click', function clickFunction(event){
-    playerOneChoice = 'scissors';
-    console.log(playerOneChoice);
- });  */
+// Sbutton.addEventListener('click', function clickFunction(event){
+//     playerOneChoice = 'scissors';
+//     console.log(playerOneChoice);
+//  });  
 
 
 //////////add new variable to track player turn and prompt next player///////////////
-
+/* When active clicking each button will change player choice 
+variable and player turn variable*/
 
  //let playerOneChoice = null;
  //let playerTurn = 1;
@@ -48,22 +49,22 @@ Sbutton.addEventListener('click', function clickFunction(event){
 //Rbutton.addEventListener('click', function clickFunction(event){
 /*games use a lot of is statements here we use it to only make the
 player one weapon selection if it is their turn*/
-  //  if(playerTurn ==1){
-    //playerOneChoice = 'rock';
-//console.log(playerOneChoice);
-//playerTurn = 2;
-//prompter.innerHTML ='Player 2 select your weapon' 
-//}
-//});
+//    if(playerTurn ==1){
+//     playerOneChoice = 'rock';
+// console.log(playerOneChoice);
+// playerTurn = 2;
+// prompter.innerHTML ='Player 2 select your weapon' 
+// }
+// });
 
-//Pbutton.addEventListener('click', function clickFunction(event){
-  //  if(playerTurn ==1){
-    //    playerOneChoice = 'paper';
+// Pbutton.addEventListener('click', function clickFunction(event){
+//    if(playerTurn ==1){
+//        playerOneChoice = 'paper';
 //    console.log(playerOneChoice);
- //   playerTurn = 2;
-   // prompter.innerHTML ='Player 2 select your weapon' 
+//    playerTurn = 2;
+//    prompter.innerHTML ='Player 2 select your weapon' 
 //    }
-//});
+// });
 
 // Sbutton.addEventListener('click', function clickFunction(event){
 //    if(playerTurn ==1){
@@ -105,6 +106,8 @@ player one weapon selection if it is their turn*/
 //  });
 
 //////////////set up player 2 choice and winner calculation///////////////
+/* When active clicking each button will change player choice variable and 
+player variable it will let both pick and then declare a winner or draw*/
 
 // function WeaponChoice(choice){
 //     /*games use a lot of is statements here we use it to only make the
@@ -156,7 +159,7 @@ player one weapon selection if it is their turn*/
 
 //////////////Let players play again///////////////
 
-
+/* When active clicking the button after a game will reset it*/
 //  function WeaponChoice(choice){
 //       /*games use a lot of is statements here we use it to only make the
 //  player one weapon selection if it is their turn*/
