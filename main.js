@@ -85,9 +85,9 @@ player one weapon selection if it is their turn*/
 //     if(playerTurn ==1){
 //         playerOneChoice = choice;
 //     console.log(playerOneChoice);
-//     playerTurn = 2;
 //     prompter.innerHTML ='Player 2 select your weapon' 
 //     }
+//     playerTurn = playerTurn +1;
 // };
 
 //  let playerOneChoice = null;
