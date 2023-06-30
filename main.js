@@ -43,12 +43,12 @@ diplay it to the console*/
 /* When active clicking each button will change player choice 
 variable and player turn variable*/
 
- //let playerOneChoice = null;
- //let playerTurn = 1;
+//  let playerOneChoice = null;
+//  let playerTurn = 1;
 
-//Rbutton.addEventListener('click', function clickFunction(event){
-/*games use a lot of is statements here we use it to only make the
-player one weapon selection if it is their turn*/
+// Rbutton.addEventListener('click', function clickFunction(event){
+// /*games use a lot of is statements here we use it to only make the
+// player one weapon selection if it is their turn*/
 //    if(playerTurn ==1){
 //     playerOneChoice = 'rock';
 // console.log(playerOneChoice);
@@ -109,9 +109,9 @@ player one weapon selection if it is their turn*/
 /* When active clicking each button will change player choice variable and 
 player variable it will let both pick and then declare a winner or draw*/
 
-// function WeaponChoice(choice){
-//     /*games use a lot of is statements here we use it to only make the
-// player one weapon selection if it is their turn*/
+//function WeaponChoice(choice){
+    /*games use a lot of is statements here we use it to only make the
+player one weapon selection if it is their turn*/
 // if(playerTurn ==1){
 //   playerOneChoice = choice;
 // console.log("player 1 choice" + playerOneChoice);
@@ -121,7 +121,7 @@ player variable it will let both pick and then declare a winner or draw*/
   
 // if (playerTurn ==2) {
 //    playerTwoChoice = choice;
-//    console.log("player 1 choice" + playerTwoChoice);
+//    console.log("player 2 choice" + playerTwoChoice);
    
 // /* & means two things must both be true to fulfill the condition
 // || means or so only one must be true to fulfill the condition*/
